@@ -3,7 +3,44 @@
   border-radius: 20px;
   transition: border 0.25s;
   display: block;
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
 }
 .Img-dog:hover {
   border: 25px solid #1d4259;
+}
+
+.Dogimg {
+  height: 400px;
+  width: inherit;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+.DogText {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/* .Dogin {
+  width: 600px;
+} */
+
+@media screen and (max-width: 610px) {
+  .Dogin {
+    width: 300px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .Dogimg {
+    height: 200px;
+  }
 }

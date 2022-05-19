@@ -1,0 +1,20 @@
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 400px;
+  color: #1d4259;
+}
+.credits h2 {
+  padding: 20px;
+  font-size: 30px;
+}
+.credits h3 {
+  font-size: 20px;
+  padding: 20px;
+}
+.credits p {
+  font-size: 18px;
+  padding: 20px;
+}

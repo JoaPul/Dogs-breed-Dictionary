@@ -1,0 +1,9 @@
+.Img-dog {
+  border: 20px solid #1d4259;
+  border-radius: 20px;
+  transition: border 0.25s;
+  display: block;
+}
+.Img-dog:hover {
+  border: 25px solid #1d4259;
+}

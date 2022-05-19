@@ -1,0 +1,28 @@
+/* Color Theme Swatches in Hex */
+.Elements-Sensation-1-hex {
+  color: #51718c;
+}
+.Elements-Sensation-2-hex {
+  color: #adc5d9;
+}
+.Elements-Sensation-3-hex {
+  color: #d8e6f2;
+}
+.Elements-Sensation-4-hex {
+  color: #022840;
+}
+.Elements-Sensation-5-hex {
+  color: #1d4259;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #adc5d9;
+}
+.Title-cont {
+  text-align: center;
+}
